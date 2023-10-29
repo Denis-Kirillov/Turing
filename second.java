@@ -10,7 +10,7 @@ public class second {
         int l = scan.nextInt();
         int sum = 0;
         if (r < 1 || l < 1)
-            System.out.println("Введены неорректные данные");
+            System.out.println("Введены некорректные данные");
         else {
             for (int i = 1; i <= 16; i++) {
                 sum += r * l;
